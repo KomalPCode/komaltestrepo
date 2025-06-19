@@ -1,0 +1,36 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        
+        int a = 5;
+        int b = 20;
+        
+        if (a == b){
+            System.out.println("a is equal to b is False");
+        }
+        if (a != 5){
+            System.out.println("a is not equal to b is True");
+        }
+        if (a > b){
+            System.out.println("a is greater than b False");
+        }
+         if (a < b){
+            System.out.println("a is less than b is True");
+        }
+         if (a <= b){
+            System.out.println("a is less than or equal to b is true");
+        }
+         if (a >= b){
+            System.out.println("a is greater than or equals to b False");
+        }
+        if (a == b && a != b){
+            System.out.println("False");
+        }
+        if (a == b || a != b){
+            System.out.println("True");
+        }
+       
+    }
+}
